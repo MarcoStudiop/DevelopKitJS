@@ -1,0 +1,84 @@
+/*IMPORTA LE REGOLE DEL FILE PRECEDENTE*/
+@import 'style.css';
+body{
+    margin:0;
+    padding:0;
+}
+bg-dietro{
+    margin:0;
+    padding:0;
+}
+
+.div-container{
+    padding:0;
+    width: 100%;
+    height:auto;
+    position: relative;
+}
+
+.div-p{
+    color:white;
+    font-size: 40px;
+    margin:0;
+    max-width: 100%;
+    height: auto;
+    padding: 10% 5% 10% 5%;
+}
+.div-p p{
+    float: right;
+    padding: 10px;
+    background: #272927;
+    border-radius: 15px;
+}
+.div-p a{
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+    float: right;
+    background: #14ce17;
+    border-radius: 15px;
+}
+
+.menu{
+    margin:0;
+    padding:0;
+    float:left;
+    overflow: hidden;
+    width:100%;
+    height:auto;
+    position: relative;
+}
+.menu ul{
+    margin:0;
+    padding:20px;
+    overflow: hidden;
+}
+.menu ul li{
+    display:inline-block;
+    padding:10px;
+    margin-left: 10px;
+
+    border-radius: 15px;
+  
+    
+}
+.menu ul li a{
+    padding:10px;
+    text-align: center;
+    text-decoration: none;
+
+    border-radius: 15px;
+    border: 3px solid#272927;
+    color:white;
+}
+.menu ul li a:hover{
+    color: #14ce17;
+    background-color:#272927;
+    border-radius: 15px;
+}
+
+
+
+.sezione1{background-color: #14ce17;}
+.sezione2{background-color: #272927;}
+.sezione3{background-color: #14ce17;}
