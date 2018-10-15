@@ -1,0 +1,106 @@
+/*IMPORTA LE REGOLE DEL FILE PRECEDENTE*/
+@import 'style.css';
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+bg-dietro {
+    margin: 0;
+    padding: 0;
+}
+
+.div-container {
+    padding: 0;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.div-p {
+    color: white;
+    font-size: 40px;
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+    padding: 10% 5% 10% 5%;
+}
+
+.div-p p {
+    float: right;
+    padding: 10px;
+    background: #272927;
+    border-radius: 15px;
+}
+
+.div-p a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-width: 0px;
+    -webkit-transition: border-width 0.5s;
+    -webkit-transition-timing-function: ease;
+    transition: border-width 0.5s;
+    transition-timing-function: ease;
+
+}
+
+.div-p a:hover {
+    border-bottom: 4px solid orange;
+    border-width: 5px;
+
+
+}
+
+
+.menu {
+    margin: 0;
+    padding: 5px;
+    float: left;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: #272927;
+    z-index:1;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0px 10px 0px 10px;
+    overflow: hidden;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 20px;
+    border-bottom: 4px solid #272927;
+
+
+}
+
+.menu ul li a {
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+ 
+    color: white;
+}
+
+.menu ul li:hover {
+  
+    border-bottom: 4px solid #14ce17;
+}
+
+.sezione1 {
+    background-color: #14ce17;
+}
+
+.sezione2 {
+    background-color: #272927;
+}
+
+.sezione3 {
+    background-color: #14ce17;
+}
