@@ -14,5 +14,5 @@
 
 <ul>
   <li>node server.js/ compila sulla tua ide </li>
-  <li>Scrivi sulla tua url : <b>localhost:8080</li>
+  <li>Scrivi sulla tua url : <b>localhost:3000</li>
  </ul>
